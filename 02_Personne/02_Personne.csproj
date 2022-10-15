@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_02_Personne</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_Cercle\01_Cercle.csproj" />
+    <ProjectReference Include="..\03_Complexe\03_Complexe.csproj" />
+    <ProjectReference Include="..\04_House\04_House.csproj" />
+  </ItemGroup>
+
+</Project>
